@@ -3,15 +3,23 @@ Car seat temperature control system is one the feature that we can see in most o
 # Features:-
 * System will sense whether driver or passenger seated or not.
 * We can modify the temperature in the vehicle.
-* Displays the temperature on LED display.
+* Displays the temperature on LCD display.
 * Low cost and robust system.
 # Requirements:-
 ## High-Level Requirements
 | ID|Description|
 |---|------------|
 |HLR_01|Microcontroller|
-|-------|--------------|
-|HLR_02|Temperature Sensor|
-|-------|-----------------|
+|HLR_02|Heater|
+|HLR_03|Temperature Sensor|
+|HLR_04|Display |
+HLR_05|Software Used|
+## Low-Level Requirements
+|ID|Description|
+|---|----------|
+|LLR_01|ATMega328|
+|LLR_02|Switches|
+|LLR_03|LCD|
+|LLR_04|Avr GCC compiler|
 
 
